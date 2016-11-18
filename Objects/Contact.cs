@@ -1,35 +1,53 @@
 using System.Collections.Generic;
 
-namespace AddressBook
+namespace AddressBook.Objects
 {
   public class Contact
   {
     private string _name;
     private int _phone;
     private string _address;
-    private static List<Contact> _instance = new List<Contact> {};
+    private static List<Contact> _allcontacts = new List<Contact>{};
 
     public Contact(string name, int phone, string address)
     {
       _name = name;
       _phone = phone;
       _address = address;
-      _instance.Add(this);
+      _allcontacts.Add(this);
     }
 
-
-
-
-
-
-
-
-
+    public void SetName(string newName)
+    {
+      _name = newName;
+    }
+    public string GetName()
+    {
+      return _name;
+    }
+    public void SetPhone(int newPhone)
+    {
+      _phone = newPhone;
+    }
+    public int GetPhone()
+    {
+      return _phone;
+    }
+    public void SetAddress(string newAddress)
+    {
+      _address = newAddress;
+    }
+    public string GetAddress()
+    {
+      return _address;
+    }
+    public static List<Contact> ViewAllContacts()
+    {
+      return _allcontacts;
+    }
+    public static void ClearAllContacts()
+    {
+      _allcontacts.Clear();
+    }
   }
-
-
-
-
-
-
 }

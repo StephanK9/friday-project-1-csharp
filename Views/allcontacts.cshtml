@@ -1,0 +1,16 @@
+<h1>Your Address Book:</h1>
+<br>
+<h3>Contacts:</h3>
+<p>Here are all your contacts:</p>
+@foreach(var contactInstance in Model)
+{
+  <br>
+  <p><strong>@contactInstance.GetName()</strong></p>
+  <p>Phone: @contactInstance.GetPhone()</p>
+  <p>Address: @contactInstance.GetAddress()</p>
+}
+
+<p><a href="/">Add Another Contact</a></p>
+<form action="/clear" method="post">
+  <button type="submit">Clear All Contacts</button>
+</form>

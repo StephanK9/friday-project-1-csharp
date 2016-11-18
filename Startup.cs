@@ -5,7 +5,7 @@ using Nancy;
 using Nancy.Owin;
 using Nancy.ViewEngines.Razor;
 
-namespace Hangman
+namespace AddressBook
 {
   public class Startup
   {
