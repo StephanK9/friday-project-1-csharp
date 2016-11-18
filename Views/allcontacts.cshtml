@@ -9,8 +9,12 @@
   <p>Phone: @contactInstance.GetPhone()</p>
   <p>Address: @contactInstance.GetAddress()</p>
 }
+@foreach (var contact in Model)
+      {
+        <li><a href='/allcontacts/@contact.GetId()'>@contact.GetName()</a></li>
+      }
 
-<p><a href="/add_new_contact">Add a Contact</a></p>
+<p><a href="/">Add a new contact</a></p>
 <form action="/clear" method="post">
   <button type="submit">Clear All Contacts</button>
 </form>
