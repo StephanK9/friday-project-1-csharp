@@ -2,19 +2,13 @@
 <br>
 <h3>Contacts:</h3>
 <p>Here are all your contacts:</p>
-@foreach(var contactInstance in Model)
-{
-  <br>
-  <p><strong>@contactInstance.GetName()</strong></p>
-  <p>Phone: @contactInstance.GetPhone()</p>
-  <p>Address: @contactInstance.GetAddress()</p>
-}
+
 @foreach (var contact in Model)
       {
         <li><a href='/allcontacts/@contact.GetId()'>@contact.GetName()</a></li>
       }
 
-<p><a href="/">Add a new contact</a></p>
+<p><a href="/">Return to the Home Page</a></p>
 <form action="/clear" method="post">
   <button type="submit">Clear All Contacts</button>
 </form>
