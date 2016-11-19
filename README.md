@@ -6,7 +6,7 @@
 
 ## Description
 
-_{This online Address Book lets you input contacts. The homepage will display any contact that you decide to add. The homepage also lets you click on a link that will take you to a page where you can input all the information required for your contacts. Once entered, you will go to a confirmation page that will let you see your entered contact. All your contacts will appear on the homepage and will be link-active which means that clicking on each contact will take you to a page with that specific contact's information only. This website also lets you clear all your contacts.}_
+_This online Address Book lets you input contacts. The homepage will display any contact that you decide to add. The homepage also lets you click on a link that will take you to a page where you can input all the information required for your contacts. Once entered, you will go to a confirmation page that will let you see your entered contact. All your contacts will appear on the homepage and will be link-active which means that clicking on each contact will take you to a page with that specific contact's information only. This website also lets you clear all your contacts._
 
 ## Setup/Installation Requirements
 
