@@ -1,8 +1,8 @@
-# _{Address Book}_
+# _Address Book_
 
-#### _{This online Address Book will let you input Names, Phone Numbers, and an Address for your contacts.}, {November 18th 2016}_
+#### _This online Address Book will let you input Names, Phone Numbers, and an Address for your contacts., November 18th 2016_
 
-#### By _**{Stephan Khoury}**_
+#### By _**Stephan Khoury**_
 
 ## Description
 
